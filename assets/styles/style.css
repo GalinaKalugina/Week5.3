@@ -1,0 +1,52 @@
+.header{
+    height: 72px;
+    width: 1440px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    display: flex;
+    font-family: DM Sans, Arial, Helvetica, sans-serif;
+font-size: 16px;
+background: #FAF6EE;
+border-radius: 0px;
+margin: 5px;
+justify-content: center;
+}
+li{
+    display: inline;
+}
+.span{
+    justify-content: flex-start 
+}
+.article{
+    display: flex;
+    text-align: center;
+}
+.text{
+    font-family: DM Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#SALE{
+    Font-family: DM Sans, Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+nav.menu:hover{
+    text-decoration: underline;
+}
+footer{
+    display:inline;
+    font-family: DM Sans, Arial, Helvetica, sans-serif;
+    background: #FAF6EE;
+}
+button:active{
+    color: red
+}
+.offer::after{
+    content: "10% off";
+    color:green
+}
